@@ -10,9 +10,7 @@
 		9413F52A1B21B4D2001967F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9413F5291B21B4D2001967F1 /* main.m */; };
 		9413F52D1B21B4D2001967F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9413F52C1B21B4D2001967F1 /* AppDelegate.m */; };
 		9413F5301B21B4D2001967F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9413F52F1B21B4D2001967F1 /* ViewController.m */; };
-		9413F5331B21B4D2001967F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9413F5311B21B4D2001967F1 /* Main.storyboard */; };
 		9413F5351B21B4D2001967F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9413F5341B21B4D2001967F1 /* Images.xcassets */; };
-		9413F5381B21B4D2001967F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9413F5361B21B4D2001967F1 /* LaunchScreen.xib */; };
 		9413F5441B21B4D2001967F1 /* BlocstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9413F5431B21B4D2001967F1 /* BlocstagramTests.m */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +32,7 @@
 		9413F52C1B21B4D2001967F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9413F52E1B21B4D2001967F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9413F52F1B21B4D2001967F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9413F5321B21B4D2001967F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9413F5341B21B4D2001967F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9413F5371B21B4D2001967F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9413F53D1B21B4D2001967F1 /* BlocstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9413F5421B21B4D2001967F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9413F5431B21B4D2001967F1 /* BlocstagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocstagramTests.m; sourceTree = "<group>"; };
@@ -85,9 +81,7 @@
 				9413F52C1B21B4D2001967F1 /* AppDelegate.m */,
 				9413F52E1B21B4D2001967F1 /* ViewController.h */,
 				9413F52F1B21B4D2001967F1 /* ViewController.m */,
-				9413F5311B21B4D2001967F1 /* Main.storyboard */,
 				9413F5341B21B4D2001967F1 /* Images.xcassets */,
-				9413F5361B21B4D2001967F1 /* LaunchScreen.xib */,
 				9413F5271B21B4D2001967F1 /* Supporting Files */,
 			);
 			path = Blocstagram;
@@ -199,8 +193,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9413F5331B21B4D2001967F1 /* Main.storyboard in Resources */,
-				9413F5381B21B4D2001967F1 /* LaunchScreen.xib in Resources */,
 				9413F5351B21B4D2001967F1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +234,6 @@
 			targetProxy = 9413F53E1B21B4D2001967F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9413F5311B21B4D2001967F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9413F5321B21B4D2001967F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9413F5361B21B4D2001967F1 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9413F5371B21B4D2001967F1 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9413F5451B21B4D2001967F1 /* Debug */ = {
