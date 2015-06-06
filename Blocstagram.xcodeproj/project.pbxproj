@@ -26,6 +26,7 @@
 		9415819D1B220CF8003606E1 /* BLCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9415819C1B220CF8003606E1 /* BLCUser.m */; };
 		941581A01B220DDD003606E1 /* BLCMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 9415819F1B220DDD003606E1 /* BLCMedia.m */; };
 		941581A31B220EA8003606E1 /* BLCComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 941581A21B220EA8003606E1 /* BLCComment.m */; };
+		9472AC7C1B22E60B00CB0CD4 /* BLCMediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9472AC7B1B22E60B00CB0CD4 /* BLCMediaTableViewCell.m */; };
 		9479C3731B220F8700DA6CCA /* BLCDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9479C3721B220F8700DA6CCA /* BLCDataSource.m */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,8 @@
 		9415819F1B220DDD003606E1 /* BLCMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCMedia.m; sourceTree = "<group>"; };
 		941581A11B220EA8003606E1 /* BLCComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCComment.h; sourceTree = "<group>"; };
 		941581A21B220EA8003606E1 /* BLCComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCComment.m; sourceTree = "<group>"; };
+		9472AC7A1B22E60B00CB0CD4 /* BLCMediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCMediaTableViewCell.h; sourceTree = "<group>"; };
+		9472AC7B1B22E60B00CB0CD4 /* BLCMediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCMediaTableViewCell.m; sourceTree = "<group>"; };
 		9479C3711B220F8700DA6CCA /* BLCDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCDataSource.h; sourceTree = "<group>"; };
 		9479C3721B220F8700DA6CCA /* BLCDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +97,8 @@
 		9413F51B1B21B4D2001967F1 = {
 			isa = PBXGroup;
 			children = (
+				9472AC7A1B22E60B00CB0CD4 /* BLCMediaTableViewCell.h */,
+				9472AC7B1B22E60B00CB0CD4 /* BLCMediaTableViewCell.m */,
 				9479C3711B220F8700DA6CCA /* BLCDataSource.h */,
 				9479C3721B220F8700DA6CCA /* BLCDataSource.m */,
 				9415819B1B220CF8003606E1 /* BLCUser.h */,
@@ -286,6 +291,7 @@
 			files = (
 				9413F5301B21B4D2001967F1 /* ViewController.m in Sources */,
 				9413F52D1B21B4D2001967F1 /* AppDelegate.m in Sources */,
+				9472AC7C1B22E60B00CB0CD4 /* BLCMediaTableViewCell.m in Sources */,
 				941581A01B220DDD003606E1 /* BLCMedia.m in Sources */,
 				9413F52A1B21B4D2001967F1 /* main.m in Sources */,
 				9413F5641B21B6A3001967F1 /* BLCImagesTableViewController.m in Sources */,
