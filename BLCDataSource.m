@@ -67,11 +67,11 @@
     return self;
 }
 
-- (void) deleteMediaItemAtIndex:(NSInteger) index {
-    NSMutableArray *array = [self.mediaItems mutableCopy];
-    [array removeObjectAtIndex:index];
-    self.mediaItems = array;
-}
+//- (void) deleteMediaItemAtIndex:(NSInteger) index {
+//    NSMutableArray *array = [self.mediaItems mutableCopy];
+//    [array removeObjectAtIndex:index];
+//    self.mediaItems = array;
+//}
 
 - (void) deleteMediaItem:(BLCMedia *)item {
     NSMutableArray *mutableArrayWithKVO = [self mutableArrayValueForKey:@"mediaItems"];

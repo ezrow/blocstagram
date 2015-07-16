@@ -17,7 +17,7 @@
 
 - (void) deleteMediaItem:(BLCMedia *)item;
 
-- (void) deleteMediaItemAtIndex:(NSInteger) index;
+//- (void) deleteMediaItemAtIndex:(NSInteger) index;
 
 
 @end

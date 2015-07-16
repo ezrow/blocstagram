@@ -19,8 +19,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    //return self.items.count;
-    return [BLCDataSource sharedInstance].mediaItems.count;
+    return self.items.count;
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -115,9 +114,8 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
 
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [[BLCDataSource sharedInstance] deleteMediaItemAtIndex:indexPath.row];
-        NSLog(@"%lUl", self.images.count);
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        //[tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        [[BLCDataSource sharedInstance] deleteMediaItem:self.items[indexPath.row]];
     }
 
 }
